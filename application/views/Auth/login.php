@@ -41,7 +41,7 @@ height:10vh;"
                     <div class="col-lg-12">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Silahkan login</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Selamat datang</h1>
                             </div>
                             <form class="user" action="<?=base_url("Auth/proses_login")?>" method="POST">
                                 <div class="form-group">

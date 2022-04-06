@@ -13,7 +13,7 @@
             <?php echo $this->session->flashdata('pesan');?>
                 <div class="table-responsive">
                     <table class="table table-bordered text-center"id="dataTable" width="100%" cellspacing="0">
-                      <thead>
+                      <thead class="bg-info">
                         <tr>
                           <td>no</td>
                           <td>username</td>

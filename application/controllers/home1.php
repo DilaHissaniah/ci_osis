@@ -13,8 +13,8 @@ class Home1 extends CI_Controller{
     
         {   
         $data['anggota']=$this->Tbl_anggota->semuaData();    
-        $this->load->view('templates/Auth_header');
-        $this->load->view('home1/index1',$data);
+        $this->load->view('templates/Auth_header'); 
+        $this->load->view('home1/index1',$data); 
         }
 
         public function proses_tambah_data()

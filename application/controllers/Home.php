@@ -8,7 +8,7 @@ class Home extends CI_Controller{
         if (!$this->session->userdata('id_user')){
           redirect('auth/index');
       }
-    } 
+    }  
     public function tambah_data()
     
         {   
